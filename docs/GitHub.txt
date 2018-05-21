@@ -118,6 +118,9 @@ $ git remote add origin https://github.com/sundervel1/myrepo.git
 $ git remote 
    - origin
 
+$ git push -u origin master
+
+
 
 
 

@@ -1,0 +1,87 @@
+GIT:
+
+Version Control System for tracking changes in computer files
+
+2005 by Linus Trovalds (Creator of Linux)
+
+Need no language or framework
+
+- Distributed/decentralized version control system
+   Many developers can work on a project without having to be on the same network
+
+- Co ordinates work between multiple developers
+  Tracks any change in the files in the project
+- Who made what changes and when
+- Can revert back to any version of any file which was committed to the repository
+- A Local repository is maintained in local system which are pushed to remote repository once changes are complete
+github/bitbucket
+
+Concepts:
+- Keeps track of code history
+- Takes snapshots of our files
+- We can decide when to take snapshot by making commit
+- We can visit any snapshot at any time
+- We can put code in a staging area before commit and writing to snapshot
+- After commit, other developers can pull code into their machines
+
+Basic Commands
+$ git init
+ - initializes the local git repository
+it creates a hidden .git folder in that project
+$ git add <file>
+ - will add file(s) to the staging area or index, which will be ready for commit
+$ git status
+ - to see what is in staging area and the path
+$ git commit 
+ - will take from staging area and put in local repository
+$ git push 
+ - will push files in local repository into the remote repository
+$ git pull
+ - to pull from remote repository to local repository
+$ git clone
+ - will copy remote repository into current folder
+
+Installing git
+
+windows: 
+   http://git-scm.com/download/win
+
+Install git
+
+start-> gitbash
+OR cmd
+
+on your folder right click and select Git Bash Here
+
+$ git --version
+
+ctrl + for increase size
+
+$ touch myapp.js
+  - will create a file
+
+Initialize the folder as git repository
+ -  it creates a .git folder in the directory
+
+$ git config --global user.name 'Surendran Velath'
+$ git config --global user.email 'surendan@gmail.com'
+
+$ git add index.html
+  - adds to staging area
+
+$ git status
+  - will show changes to be committed and untracked
+$ git add *.html
+  - for .html files
+$ git add .
+  - for all files
+
+
+
+
+
+
+
+
+
+

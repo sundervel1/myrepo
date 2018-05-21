@@ -86,6 +86,21 @@ edit a file say myapp.js
 
 $ git add .
 $ git commit -, 'Changed myapp.js'
+create two more files
+
+$ touch .gitignore
+$ touch log.txt
+edit .gitignore and insert log.txt
+$ git add .
+   - the log.txt will be ignored
+$ git commit -m 'more changes'
+
+to change from branch master, create a branch
+$ git branch mybranch
+$ git checkout mybranch
+$ clear
+   - clears screen
+
 
 
 

@@ -76,8 +76,16 @@ $ git add *.html
 $ git add .
   - for all files
 
+$ git commit
+i  -> for insert mode
+add Initial commit
+:wq
+ -  save and exit
 
+edit a file say myapp.js
 
+$ git add .
+$ git commit -, 'Changed myapp.js'
 
 
 

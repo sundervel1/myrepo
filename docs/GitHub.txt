@@ -100,6 +100,9 @@ $ git branch mybranch
 $ git checkout mybranch
 $ clear
    - clears screen
+create home.html
+$ git add .
+$ git commit -m 'added home.html'
 
 
 

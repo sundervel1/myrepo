@@ -103,6 +103,20 @@ $ clear
 create home.html
 $ git add .
 $ git commit -m 'added home.html'
+$ git checkout master
+  - > the new file and changes in others will disappear
+$ git merge mybranch
+  - now it will reappear
+
+Login to github
+
+Create new repository
+ click on top right + sign and choose new repository
+ / myrepo
+
+$ git remote add origin https://github.com/sundervel1/myrepo.git
+$ git remote 
+   - origin
 
 
 
